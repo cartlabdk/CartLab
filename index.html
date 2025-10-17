@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CartLab – Genbrug. Fornyelse. Bevægelse.</title>
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- === HEADER === -->
+  <header>
+    <img src="assets/Cartlab Logo u. Baggrund.png" alt="CartLab logo">
+  </header>
+
+  <!-- === ANNOUNCEMENT BAR === -->
+  <div class="announcement">
+    <div class="scroll-text">
+      <p>VI ÅBNER FOR SHOPPEN D. 15. NOVEMBER 💚</p>
+      <p>VI ÅBNER FOR SHOPPEN D. 15. NOVEMBER 💚</p>
+      <p>VI ÅBNER FOR SHOPPEN D. 15. NOVEMBER 💚</p>
+      <p>VI ÅBNER FOR SHOPPEN D. 15. NOVEMBER 💚</p>
+      <p>VI ÅBNER FOR SHOPPEN D. 15. NOVEMBER 💚</p>
+      <p>VI ÅBNER FOR SHOPPEN D. 15. NOVEMBER 💚</p>
+    </div>
+  </div>
+
+  <!-- === HERO SECTION === -->
+  <section class="hero">
+    <div class="hero-inner">
+      <h1 class="main-title">CartLab</h1>
+      <h2 class="subtitle">Genbrug. Fornyelse. Bevægelse.</h2>
+      <p class="hero-description">
+        CartLab er alt andet end en virksomhed, der jagter store profitter.
+        Vores mål er at gøre golf mere tilgængelig – både for nye spillere og for dem, der har udfordringer med at komme hele vejen rundt på banen.
+        
+        Vi istandsætter og sælger brugt golfudstyr, så flere kan komme i gang uden at bruge en formue.
+        Mange mister glæden ved golf, fordi det bliver for fysisk krævende eller for dyrt – og priserne på golfbiler er ofte urealistisk høje.
+        
+        Derfor arbejder vi for at give alle mulighed for at komme rundt på banen til en pris, der er til at betale – og samtidig passe på miljøet.
+      </p>
+    </div>
+  </section>
+
+  <!-- === ABOUT SECTION === -->
+  <section class="about">
+    <div class="cards">
+      <div class="card">
+        <h3>Hvad vi kommer til at sælge</h3>
+        <p>
+            Hos CartLab tilbyder vi både produkter og services inden for golf og golfbiler.
+Vi genbruger og istandsætter golfudstyr, trolleys og golfbiler for at holde prisen nede og belastningen på miljøet lav.
+
+Vi tilbyder desuden service på golfbiler, herunder montering af ekstraudstyr som håndtag, lys og skærme, lovliggørelse til vejbrug samt udskiftning af gamle blybatterier til moderne lithium.
+Derudover sælger vi brugte og istandsatte golfbiler til skarpe priser.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Hvorfor vi sælger det vi gør</h3>
+        <p>
+            Vi sælger og istandsætter golfudstyr for at gøre sporten mere tilgængelig for alle.
+            Hos CartLab vil vi øge interessen for golf, hjælpe dem, der har svært ved at komme hele vejen rundt på banen, og samtidig tage hensyn til miljøet.
+            
+            Ved at genbruge og opgradere udstyr holder vi omkostningerne nede, så vi kan tilbyde kvalitet til priser, hvor alle kan være med.
+        </p>
+      </div>
+
+      <!-- === NYT TREDJE KORT === -->
+      <div class="card center-card">
+        <h3>Vi søger samarbejdspartnere/sponsorater</h3>
+        <p>
+            Vi leder efter virksomheder, organisationer og private, der vil være med til at hjælpe fire unge iværksættere i gang med deres drøm.
+            Hos CartLab handler sponsorater og samarbejde ikke kun om penge – det handler om at skabe noget meningsfuldt sammen.
+            
+            Vi tager imod al den støtte, vi kan få – om det er plads til at arbejde på vores golfbiler, brugt udstyr, gamle golfbiler eller økonomisk hjælp.
+            Hos os tæller alt, og selv den mindste støtte gør en forskel.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- === CONTACT FORM SECTION === -->
+  <section class="contact">
+    <div class="contact-container">
+      <h2>Kontakt os</h2>
+      <p class="contact-intro">
+        Ønsker du at støtte, stille spørgsmål eller komme i kontakt med os, inden CartLab officielt åbner?  
+        Udfyld formularen herunder — vi vender tilbage hurtigst muligt.
+      </p>
+  
+      <form id="contactForm" action="https://formspree.io/f/xyznonba" method="POST" novalidate>
+        <div class="form-group">
+          <label for="name">Navn:</label>
+          <input type="text" id="name" name="name" placeholder="Indtast dit navn" required>
+        </div>
+      
+        <div class="form-group">
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" placeholder="Indtast din e-mail" required>
+        </div>
+      
+        <div class="form-group">
+          <label for="message">Besked:</label>
+          <textarea id="message" name="message" rows="5" placeholder="Skriv din besked her..." required></textarea>
+        </div>
+      
+        <button type="submit" id="submitBtn" class="btn-submit">Send besked</button>
+        <p class="success-message" id="successMessage">Tak for din besked 💚</p>
+        <p class="error-message" id="errorMessage">Noget gik galt. Prøv igen.</p>
+      </form>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+  <footer class="footer">
+    <div class="footer-content">
+      <p class="footer-title">CartLab – Genbrug. Fornyelse. Bevægelse.</p>
+      <p>Kontakt: <a href="mailto:cartlabdk@gmail.com">cartlabdk@gmail.com</a></p>
+      <p>Område: Midtjylland, Danmark</p>
+      <p class="footer-copy">© 2025 CartLab. Alle rettigheder forbeholdes.</p>
+    </div>
+  </footer>  
+</body>
+</html>
